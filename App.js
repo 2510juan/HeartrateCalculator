@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.fields}>Age</Text>
+      <Text style={styles.fields}>new Age</Text>
      
       <TextInput style={styles.field} value={age}
         onChangeText={text => change(text)}  keyboard-type='decimal-pad'>
